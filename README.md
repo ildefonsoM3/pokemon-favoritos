@@ -1,1 +1,1 @@
-# pokemon-favoritos
+# Pokemon Favoritos
