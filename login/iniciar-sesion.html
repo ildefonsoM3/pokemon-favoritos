@@ -2,58 +2,34 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/login/styles.css" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="/login/styles.css" rel="stylesheet" />
         <title>Document</title>
     </head>
     <body>
         <header class="header">
-            <img
-                class="header__img"
-                src="/login/assets/logo-platzi-video-BW2.png"
-                alt=""
-            />
+            <img alt="" class="header__img" src="/login/assets/logo-platzi-video-BW2.png" />
         </header>
         <section class="login">
             <section class="login__container">
                 <h2>Inicia sesión</h2>
-                <form class="login__container--form" action="">
-                    <input class="input" type="text" placeholder="Correo" />
-                    <input
-                        class="input"
-                        type="password"
-                        placeholder="Contraseña"
-                    />
+                <form action="" class="login__container--form">
+
+                    <input class="input" placeholder="Correo" type="text" />
+                    <input class="input" placeholder="Contraseña" type="password" />
                     <button class="button">Iniciar sesión</button>
+
                     <div class="login__container--remember-me">
-                        <label>
-                            <input
-                                type="checkbox"
-                                name=""
-                                id="cbox1"
-                                value="checkbos"
-                            />Recuerdame
-                        </label>
+                        <label><input id="cbox1" name="" type="checkbox" value="checkbos" />Recuerdame</label>
                         <a href="/">Olvidé mi contraseña</a>
                     </div>
                 </form>
                 <section class="login__container--social-media">
-                    <div>
-                        <img
-                            src="/login/assets/google-icon.png"
-                            alt="Google"
-                        />Inicia sesión con Google
-                    </div>
-                    <div>
-                        <img
-                            src="/login/assets/twitter-icon.png"
-                            alt="Google"
-                        />Inicia sesión con Twitter
-                    </div>
+                    <div><img alt="Google" src="/login/assets/google-icon.png" />Inicia sesión con Google</div>
+                    <div><img alt="Google" src="/login/assets/twitter-icon.png" />Inicia sesión con Twitter</div>
                 </section>
-                <p class="login__container--register">
-                    No tienes ningúna cuenta <a href="/">Regístrate</a>
-                </p>
+                <p class="login__container--register">No tienes ningúna cuenta <a href="/">Regístrate</a></p>
             </section>
         </section>
         <footer class="footer">
